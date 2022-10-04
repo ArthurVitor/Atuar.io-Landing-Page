@@ -62,7 +62,7 @@
 h1,
 h2,
 .fw-bold {
-    font-weight: 800 !important;
+    font-weight: 400 !important;
 }
 
 h3,
@@ -80,7 +80,7 @@ h6,
 
 /*** Button ***/
 .btn {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
     transition: .5s;
 }
@@ -125,7 +125,7 @@ h6,
 
 /*** Navbar ***/
 .navbar-dark .navbar-nav .nav-link {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     position: relative;
     margin-left: 25px;
     padding: 35px 0;
