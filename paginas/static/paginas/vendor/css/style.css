@@ -1,7 +1,7 @@
 /********** Template CSS **********/
 :root {
-    --primary: #34AD54;
-    --secondary: #3E8989;
+    --primary: #959595;
+    --secondary: #34AD54;
     --light: #EEF9FF;
     --dark: #091E3E;
 }
@@ -81,7 +81,7 @@ h6,
 /*** Button ***/
 .btn {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
     transition: .5s;
 }
 
@@ -131,19 +131,19 @@ h6,
     padding: 35px 0;
     color: #FFFFFF;
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 400;
     outline: none;
     transition: .5s;
 }
 
 .sticky-top.navbar-dark .navbar-nav .nav-link {
     padding: 20px 0;
-    color: #fff;
+    color: var(--dark);
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
 .navbar-dark .navbar-nav .nav-link.active {
-    color: #212F3D;
+    color: var(--primary);
 }
 
 .navbar-dark .navbar-brand h1 {
@@ -185,7 +185,7 @@ h6,
     
     .sticky-top.navbar-dark {
         position: fixed;
-        background: #34AD54;
+        background: #FFFFFF;
     }
 
     .navbar-dark .navbar-nav .nav-link::before {
@@ -210,7 +210,7 @@ h6,
     }
 
     .sticky-top.navbar-dark .navbar-brand h1 {
-        color: #FFF;
+        color: var(--primary);
     }
 }
 
@@ -489,10 +489,4 @@ h6,
     .footer-about {
         margin-bottom: -75px;
     }
-}
-
-.atuar_logo{
-    width: 48px;
-    height: 48px;
-    margin-right: 10px;
 }
